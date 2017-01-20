@@ -56,6 +56,7 @@ GEM
     debug_inspector (0.0.2)
     domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.1.1)
     equalizer (0.0.11)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -200,6 +201,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  dotenv
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
