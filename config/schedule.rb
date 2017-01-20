@@ -21,7 +21,7 @@
 
 
 # add cron job to send text each day if there are tweets matching by loading the twitter index page
-every :day, at: '12:37pm' do 
+every :day, at: '2:37pm' do 
   command  "wget -q http://localhost:3000/twitter >/dev/null 2>&1"
 end
 
